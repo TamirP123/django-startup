@@ -1,4 +1,6 @@
+from django_distill import distill_path
 from django.shortcuts import render
+
 
 def home(request):
     context = {}
