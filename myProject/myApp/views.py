@@ -21,7 +21,7 @@ def contact(request):
         print(f"Received contact request from {name}, Email: {email}, Phone: {phone}")
 
         messages.success(request, "Your message has been sent successfully!")
-        return redirect("home")  # Redirect to home page
+        return redirect("contact")  # Redirect to contact page with message displayed.
 
     context = {}
     
